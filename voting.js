@@ -10,8 +10,4 @@ function vote(vot) {
     }
   }
 }
-vote(["a"]);
-vote(["b"]);
-vote(["c"]);
-vote(["d"]);
-vote(["e"]);
+vote(["a", "b", "c", "d"]);
