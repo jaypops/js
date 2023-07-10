@@ -1,0 +1,19 @@
+function sco(grades) {
+  if (grades > 90) {
+    console.log("A");
+  }
+  if (grades > 80 && grades <= 90) {
+    console.log("B");
+  }
+  if (grades >= 60 && grades <= 80) {
+    console.log("C");
+  }
+  if (grades < 60) {
+    console.log("D");
+  }
+}
+sco(89);
+sco(78);
+sco(39);
+sco(69);
+sco(100);
